@@ -1,0 +1,110 @@
+name: swoony
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  google_maps_flutter: 
+  flutter_polyline_points:
+  geolocator:
+  widget_to_marker:
+  url_launcher:
+
+  cupertino_icons: 
+  flutter_screenutil: 
+  flutter_svg: 
+  google_fonts: 
+  shared_preferences: 
+  mime: 
+  socket_io_client: 
+  cached_network_image: 
+  intl_phone_field_v2: 
+  image_picker: 
+  pin_code_fields: 
+  intl: 
+  dio: 
+  connectivity_plus: 
+  flutter_dotenv: 
+  image_cropper: 
+  # jwt_decoder: 
+  dropdown_button2: 
+  # google_maps_flutter: 
+  # flutter_polyline_points: 3.1.0
+  # vibration: 3.1.4
+  path_provider: 2.1.5
+    # gallery_saver_plus: ^3.2.8
+  permission_handler: 12.0.1
+    # geolocator: ^14.0.2
+    # share_plus: ^11.0.0
+  flutter_secure_storage: 
+  auto_route: 
+  flutter_bloc:
+  get_it: 
+  equatable: 
+  skeletonizer: 
+  file_picker: 
+#noifications
+  flutter_local_notifications: 
+  firebase_core: 
+  firebase_messaging: 
+  flutter_html:
+  # quill_html_editor_v3: ^2.2.13
+#SHARE
+  share_plus:    
+  webview_flutter: 
+  
+#QR CODE
+  pretty_qr_code:
+  mobile_scanner:
+  zxing2:
+
+#Getx State
+  get: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  build_runner: 
+  auto_route_generator: 
+  flutter_launcher_icons: 
+  flutter_gen_runner: 
+  intl_utils:   # to generate from arb
+  flutter_auto_size_text:
+  change_app_package_name: 
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png" # your custom icon path
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icon/
+    - assets/sample/
+    - .env
+
+  # fonts:
+  #   - family: Selawik
+  #     fonts:
+  #       - asset: assets/fonts/selawk.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/selawksb.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/selawkb.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/selawkl.ttf
+  #         weight: 300
+  #       - asset: assets/fonts/selawksl.ttf
+  #         weight: 200

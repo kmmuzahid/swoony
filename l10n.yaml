@@ -1,0 +1,15 @@
+arb-dir: lib/core/config/languages/l10n  # Path to the folder containing your .arb files
+template-arb-file: intl_en.arb  # The default template file (in English)
+output-localization-file: app_localizations.dart  # The generated Dart localization file
+
+# Locales supported by the app
+supported-locales:
+  - en
+
+# Set the default locale
+default-locale: en
+
+# Custom configuration for Flutter's intl package
+flutter-intl:
+  use-deferred-loading: true  # Optional: allows lazy loading of translations
+  generate: true  # Automatically generates localization files

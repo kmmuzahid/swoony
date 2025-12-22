@@ -1,0 +1,10 @@
+<resources>
+    <string name="google_auth_client_id">17824822025-5vofofqr1s538v5ug3n58d57cob35ln6.apps.googleusercontent.com</string>
+    <string name="map_key">AIzaSyDk7p1Vl9WOtcDztagS6yPsgUYaVu_bCro</string>
+    <string name="flutter_downloader_notification_started">Download started</string>
+<string name="flutter_downloader_notification_in_progress">Download in progress</string>
+<string name="flutter_downloader_notification_canceled">Download canceled</string>
+<string name="flutter_downloader_notification_failed">Download failed</string>
+<string name="flutter_downloader_notification_complete">Download complete</string>
+<string name="flutter_downloader_notification_paused">Download paused</string>
+</resources>
