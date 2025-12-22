@@ -3,13 +3,11 @@ import 'dart:ui';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:swoony/common/auth/widgets/common_logo.dart';
 import 'package:swoony/common/onboarding_screen/widgets/onboarding_template_widget.dart';
 import 'package:swoony/core/component/button/common_button.dart';
 import 'package:swoony/core/component/image/common_image.dart';
 
 import 'package:swoony/core/component/text/common_text.dart';
-import 'package:swoony/core/config/languages/cubit/language_cubit.dart';
 import 'package:swoony/core/config/route/app_router.dart';
 import 'package:swoony/core/config/route/app_router.gr.dart';
 import 'package:swoony/core/utils/constants/app_colors.dart';
@@ -61,6 +59,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   void onTapNext() {
     if (selectedIndex < onBoardingDataList.length - 1) {
       selectedIndex++;
+      setState(() {});
     } else {
       onTapSkip();
     }
@@ -77,7 +76,18 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     final screenHeight = MediaQuery.of(context).size.height;
     final curvePosition = screenHeight * 0.45; // This matches the curveHeightRatio in template
 
-    return OnboardingTemplateWidget(
+    return PageView(
+      controller: pageController,
+      onPageChanged: (value) {
+        selectedIndex = value;
+        setState(() {});
+      },
+      children: [_getPage(curvePosition), _getPage(curvePosition), _getPage(curvePosition)],
+    );
+  }
+
+  GradientCurveContainer _getPage(double curvePosition) {
+    return GradientCurveContainer(
       imageAsset: Assets.images.onboard1.path,
       gradientColors: const [Color(0xffFF1A60), Color(0xffFF6B60)],
       child: Stack(
@@ -126,6 +136,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                     textColor: AppColors.white50,
                                     textAlign: TextAlign.center,
                                     text: onBoardingDataList[selectedIndex].subTitle,
+                                    maxLines: 5,
+                                    preventScaling: true,
                                   ),
                                 ),
                               ],
@@ -209,10 +221,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       ],
                     ),
                   ),
-            
           ),
         ],
-      )
+      ),
     );
   }
 }

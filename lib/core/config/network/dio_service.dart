@@ -22,6 +22,11 @@ import 'request_input.dart'; // Import the updated RequestInput
 import 'response_state.dart';
 import 'package:http/http.dart' as http;
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Dio service for the app
 // Callback for request state changes
 typedef OnRequestStateChange<T> = void Function(ResponseState<T> state);
 

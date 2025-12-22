@@ -56,11 +56,10 @@ class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {
                     //     ? const Icon(Icons.arrow_back_ios, size: 25)
                     //     :
                     Padding(
-                      padding: const EdgeInsets.only(left: 16),
+                      padding: const EdgeInsets.only(left: 0),
                       child: CommonImage(
                         fill: BoxFit.contain,
-                        width: 25.w,
-                        height: 18.h,
+                        width: 40.w, 
                         imageSrc: Assets.images.backIcon,
                       ),
                     ),

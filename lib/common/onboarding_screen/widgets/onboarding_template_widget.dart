@@ -1,17 +1,18 @@
 // Reusable Onboarding Template Widget
 import 'package:flutter/material.dart';
 import 'package:swoony/core/component/image/common_image.dart';
+import 'package:swoony/core/utils/constants/app_colors.dart';
 
-class OnboardingTemplateWidget extends StatelessWidget {
+class GradientCurveContainer extends StatelessWidget {
   final String imageUrl;
   final String? imageAsset;
   final List<Color> gradientColors;
   final double imageHeightRatio;
   final double curveHeightRatio;
-  final CurveStyle curveStyle;
+  final CurveStyle curveStyle; 
   final Widget child; // 🔥 Required child
 
-  const OnboardingTemplateWidget({
+  const GradientCurveContainer({
     Key? key,
     this.imageUrl = '',
     this.imageAsset,
@@ -26,9 +27,11 @@ class OnboardingTemplateWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final height = MediaQuery.of(context).size.height;
 
-    return Scaffold(
+    return Scaffold( 
+      backgroundColor: AppColors.backgroundWhite,
       body: Stack(
         children: [
+          if (imageAsset != null || imageUrl != '')
           Positioned(
             top: 0,
             left: 0,
@@ -36,6 +39,7 @@ class OnboardingTemplateWidget extends StatelessWidget {
             height: height * imageHeightRatio,
             child: CommonImage(imageSrc: imageAsset!, fill: BoxFit.cover),
           ),
+          if (imageAsset != null || imageUrl != '')
           Positioned(
             top: 0,
             left: 0,
@@ -45,6 +49,7 @@ class OnboardingTemplateWidget extends StatelessWidget {
           ),
 
           // Curved Gradient Section
+        
           Positioned(
             top: height * curveHeightRatio,
             left: 0,

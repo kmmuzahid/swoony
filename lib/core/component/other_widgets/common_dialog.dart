@@ -17,7 +17,7 @@ import 'package:swoony/core/utils/extensions/extension.dart';
 Future commonDialog({
   required Widget child,
   required BuildContext context,
-  bool isDismissible = false,
+  bool isDismissible = true,
 }) {
   return showDialog(
     context: context,
