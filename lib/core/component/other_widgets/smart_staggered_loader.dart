@@ -7,6 +7,12 @@ import 'package:swoony/core/utils/extensions/extension.dart';
 import 'package:swoony/core/utils/grid_child_postion.dart';
 import 'package:swoony/core/utils/log/app_log.dart';
 
+
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Smart staggered loader widget for the app
 class SmartStaggeredLoader extends StatefulWidget {
   const SmartStaggeredLoader({
     required this.itemCount,

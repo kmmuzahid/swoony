@@ -3,6 +3,11 @@ import 'package:swoony/core/component/text_field/common_text_field.dart';
 import 'package:swoony/core/component/text_field/input_helper.dart';
 import 'package:swoony/core/utils/app_utils.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common date input text field widget for the app
 class CommonDateInputTextField extends StatefulWidget {
   CommonDateInputTextField({
     super.key,

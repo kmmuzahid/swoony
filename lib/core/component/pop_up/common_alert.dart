@@ -5,6 +5,11 @@ import 'package:swoony/core/utils/constants/app_colors.dart';
 import 'package:swoony/core/utils/extensions/extension.dart';
 import 'package:flutter/material.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common alert widget for the app
 class CommonAlert {
   CommonAlert({
     required this.title,

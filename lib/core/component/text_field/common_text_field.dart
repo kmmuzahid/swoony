@@ -6,6 +6,11 @@ import 'package:swoony/core/utils/extensions/extension.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../text/common_text.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common text field widget for the app
 class CommonTextField extends StatefulWidget {
   const CommonTextField({
     required this.validationType,

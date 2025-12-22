@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:swoony/core/utils/constants/app_colors.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common radio group widget for the app
 /// A theme-aware radio group that accepts a Map of options where
 /// - key: submitted value (what the form gets)
 /// - value: label displayed to the user

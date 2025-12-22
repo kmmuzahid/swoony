@@ -64,6 +64,7 @@ class AppColors {
   static Color get white400 => const Color(0xFFEDEDED);
   static Color get white500 => const Color(0xFFE8E8E8);
   static Color get white600 => const Color(0xFFD3D3D3);
+  static Color get white50 => const Color(0xFFEBEBEB);
 
   //swoony
   static LinearGradient brandButton({

@@ -4,6 +4,7 @@ import 'package:swoony/core/utils/extensions/extension.dart';
 
 abstract class CommonRichTextContent {}
 
+
 class CommonRichTextSpan extends CommonRichTextContent {
   CommonRichTextSpan({required this.textSpan});
   final TextSpan textSpan;
@@ -16,6 +17,11 @@ class CommonSimpleRichTextContent extends CommonRichTextContent {
   final TextStyle? style;
 }
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common rich text widget for the app
 class CommonRichText extends StatelessWidget {
   ///usage:
   ///richTextContent: [CommonSimpleRichTextContent(text: '', style: TextStyle, ontap: (){}),

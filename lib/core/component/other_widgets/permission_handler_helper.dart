@@ -10,6 +10,12 @@ import 'package:swoony/core/utils/log/app_log.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 final flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
+
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Permission handler helper for the app
 class PermissionHandlerHelper {
   const PermissionHandlerHelper({required this.permission});
   final Permission permission;

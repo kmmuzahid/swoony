@@ -1,6 +1,11 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Screenshot preview widget for the app
 class ScreenshotPreview {
   ScreenshotPreview({
     required this.buildContext,

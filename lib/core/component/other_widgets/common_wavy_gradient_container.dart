@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common wavy gradient container widget for the app
 class CommonWavyContainer extends StatelessWidget {
   final double width;
   final double height;

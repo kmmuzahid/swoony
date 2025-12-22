@@ -5,6 +5,11 @@ import 'package:swoony/core/config/languages/cubit/language_cubit.dart';
 import 'input_formatters/date_input_formatter.dart';
 import 'input_formatters/phone_input_formater.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Input helper for the app
 enum ValidationType {
   validateRequired,
   validateEmail,

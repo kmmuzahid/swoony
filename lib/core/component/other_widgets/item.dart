@@ -3,6 +3,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../image/common_image.dart';
 import '../text/common_text.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Item widget for the app
 class Item extends StatelessWidget {
   const Item({
     required this.title,

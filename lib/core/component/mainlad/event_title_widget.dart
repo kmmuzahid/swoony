@@ -3,6 +3,11 @@ import 'package:swoony/core/component/text/common_text.dart';
 import 'package:swoony/core/utils/app_utils.dart';
 import 'package:swoony/core/utils/constants/app_colors.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Event title widget for the app
 class EventTitleWidget extends StatelessWidget {
   const EventTitleWidget({super.key, required this.title});
   final String? title;

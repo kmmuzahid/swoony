@@ -1,7 +1,14 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:swoony/core/utils/constants/app_colors.dart';
 import 'package:swoony/core/utils/extensions/extension.dart';
+
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common draggable bottom sheet widget for the app
 
 class CommonDraggableBottomSheet extends StatefulWidget {
   const CommonDraggableBottomSheet({

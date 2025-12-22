@@ -5,6 +5,11 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:swoony/core/utils/extensions/extension.dart';
 import 'package:flutter_auto_size_text/flutter_auto_size_text.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common text widget for the app
 class CommonText extends StatelessWidget {
   const CommonText({
     required this.text,

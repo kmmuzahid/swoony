@@ -8,6 +8,12 @@ import 'package:swoony/core/config/route/app_router.dart';
 import 'package:swoony/core/utils/constants/app_colors.dart';
 import 'package:swoony/core/utils/extensions/extension.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common dialog widget for the app
+
 Future commonDialog({
   required Widget child,
   required BuildContext context,

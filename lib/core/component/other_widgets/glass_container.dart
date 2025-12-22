@@ -1,6 +1,11 @@
 import 'dart:ui'; // Needed for ImageFilter.blur
 import 'package:flutter/material.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Glass container widget for the app
 class GlassContainer extends StatelessWidget {
   const GlassContainer({
     super.key,

@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:swoony/core/utils/extensions/extension.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Dual field row widget for the app
 class DualFieldRow extends StatelessWidget {
   const DualFieldRow({
     required this.left,

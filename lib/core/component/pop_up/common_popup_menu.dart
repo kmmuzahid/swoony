@@ -3,6 +3,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:swoony/core/utils/constants/app_colors.dart';
 import 'package:swoony/core/utils/constants/app_text_styles.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common popup menu widget for the app
 class CommonPopupMenu extends StatefulWidget {
   const CommonPopupMenu({
     required this.items,

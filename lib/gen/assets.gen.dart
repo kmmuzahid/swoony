@@ -72,8 +72,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/likedin.svg
   String get likedin => 'assets/images/likedin.svg';
 
-  /// File path: assets/images/onboard_1.svg
-  String get onboard1 => 'assets/images/onboard_1.svg';
+  /// File path: assets/images/onboard_1.png
+  AssetGenImage get onboard1 =>
+      const AssetGenImage('assets/images/onboard_1.png');
 
   /// File path: assets/images/onboard_2.svg
   String get onboard2 => 'assets/images/onboard_2.svg';
@@ -97,7 +98,7 @@ class $AssetsImagesGen {
   String get user => 'assets/images/user.svg';
 
   /// List of all assets
-  List<String> get values => [
+  List<dynamic> get values => [
     appIcon,
     apple,
     backIcon,

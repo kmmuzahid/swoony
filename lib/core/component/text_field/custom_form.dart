@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Custom form widget for the app
 class CustomForm extends StatefulWidget {
   const CustomForm({required this.builder, super.key});
 

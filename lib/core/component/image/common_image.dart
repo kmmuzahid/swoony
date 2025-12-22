@@ -8,6 +8,11 @@ import 'package:swoony/core/utils/log/app_log.dart';
 import 'package:swoony/gen/assets.gen.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common image widget for the app
 class CommonImage extends StatelessWidget {
   const CommonImage({
     required this.imageSrc,

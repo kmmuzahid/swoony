@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:swoony/core/config/languages/cubit/language_cubit.dart';
 import 'package:swoony/core/utils/helpers/debouncer.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Smart list loader widget for the app
 class SmartListLoader extends StatefulWidget {
   const SmartListLoader({
     required this.itemCount,

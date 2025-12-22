@@ -3,6 +3,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:swoony/core/component/button/common_button.dart';
 import 'package:swoony/core/component/text/common_text.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Multiple selector widget for the app
 class MultipleSelector extends StatefulWidget {
   final List<String> items;
   final List<String> selectedItems;

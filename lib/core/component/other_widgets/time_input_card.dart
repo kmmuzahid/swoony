@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Time input card widget for the app
 class TimeInputCard extends StatefulWidget {
   // The initial time to display.
   final TimeOfDay initialTime;

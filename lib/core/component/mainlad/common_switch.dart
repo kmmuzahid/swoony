@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:swoony/core/utils/constants/app_colors.dart' show AppColors;
 
+/// Author: Km Muzahid
+/// Email: km.muzahid@gmail.com
+/// Date: 2025-12-22
+/// Version: 1.0.0
+/// Description: Common switch widget for the app
 class CommonSwitch extends StatelessWidget {
   const CommonSwitch({super.key, required this.isActive, required this.onChanged});
   final bool isActive;
